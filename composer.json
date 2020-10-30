@@ -1,0 +1,21 @@
+{
+    "name": "douggonsouza/payments",
+    "description": "Etapas de compra com o meio de pagamento",
+    "type": "library",
+    "license": "BSD-3-Clause License",
+    "authors": [
+        {
+            "name": "Douglas Gonçalves de Souza",
+            "email": "douggonsouza@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "pagseguro/pagseguro-php-sdk": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "payments\\": "src/"
+        }
+    }
+}

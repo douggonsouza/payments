@@ -429,6 +429,7 @@ class ComposerStaticInit8379b5c63748f6c652868fd587bc58d5
         'PagSeguro\\Services\\Transactions\\Search\\Code' => __DIR__ . '/..' . '/pagseguro/pagseguro-php-sdk/source/Services/Transactions/Search/Code.php',
         'PagSeguro\\Services\\Transactions\\Search\\Date' => __DIR__ . '/..' . '/pagseguro/pagseguro-php-sdk/source/Services/Transactions/Search/Date.php',
         'PagSeguro\\Services\\Transactions\\Search\\Reference' => __DIR__ . '/..' . '/pagseguro/pagseguro-php-sdk/source/Services/Transactions/Search/Reference.php',
+        'payments\\common\\models\\orders' => __DIR__ . '/../..' . '/src/common/models/orders.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

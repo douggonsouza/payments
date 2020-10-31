@@ -406,4 +406,5 @@ return array(
     'PagSeguro\\Services\\Transactions\\Search\\Code' => $vendorDir . '/pagseguro/pagseguro-php-sdk/source/Services/Transactions/Search/Code.php',
     'PagSeguro\\Services\\Transactions\\Search\\Date' => $vendorDir . '/pagseguro/pagseguro-php-sdk/source/Services/Transactions/Search/Date.php',
     'PagSeguro\\Services\\Transactions\\Search\\Reference' => $vendorDir . '/pagseguro/pagseguro-php-sdk/source/Services/Transactions/Search/Reference.php',
+    'payments\\common\\models\\orders' => $baseDir . '/src/common/models/orders.php',
 );
